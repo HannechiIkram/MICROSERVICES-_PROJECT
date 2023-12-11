@@ -2,7 +2,7 @@ package com.example.category.entity;
 
 import jakarta.persistence.*;
 
-
+///ikrm
 import java.io.Serializable;
 
 @Entity
