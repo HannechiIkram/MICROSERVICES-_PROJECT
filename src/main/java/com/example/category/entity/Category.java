@@ -12,7 +12,7 @@ public class Category implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String nom , type ,description ;
-
+:::://///
     public int getId() {
         return id;
     }
