@@ -1,8 +1,8 @@
 package com.example.category.entity;
 
-import jakarta.persistence.*;
 
 ///ikrm
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
@@ -12,7 +12,7 @@ public class Category implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String nom , type ,description ;
-:::://///
+
     public int getId() {
         return id;
     }
@@ -20,14 +20,14 @@ public class Category implements Serializable {
     public String getNom() {
         return nom;
     }
-///
+
     public void setNom(String nom) {
         this.nom = nom;
     }
 
     public String getDescription() {
         return description;
-    }/////***** 
+    }
 
     public void setDescription(String description) {
         this.description = description;
